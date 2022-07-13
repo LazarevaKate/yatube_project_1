@@ -9,7 +9,11 @@
 ```
 pip install -r requirements.txt
 ```
-Чтобы запустить тестовый сервер в папке с файлом manage.py выполните команду:
+- Выполните миграции:
+```
+python manage.py migrate
+```
+- Чтобы запустить тестовый сервер в папке с файлом manage.py выполните команду:
 ``` 
 python3 manage.py runserver
 ``` 
